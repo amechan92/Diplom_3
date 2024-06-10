@@ -1,0 +1,121 @@
+[ {
+  "uid" : "f575e0fde684f65",
+  "name" : "testSuccessfulRegistration",
+  "time" : {
+    "start" : 1718047833770,
+    "stop" : 1718047840467,
+    "duration" : 6697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a83205f22df1c28",
+  "name" : "testRegistrationWithShortPassword",
+  "time" : {
+    "start" : 1718047840469,
+    "stop" : 1718047847241,
+    "duration" : 6772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b10387e9f4fdc087",
+  "name" : "testBunTabOpens",
+  "time" : {
+    "start" : 1718047714108,
+    "stop" : 1718047720391,
+    "duration" : 6283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b21e8abf4da7a0",
+  "name" : "testLoginFromMainPage",
+  "time" : {
+    "start" : 1718047669684,
+    "stop" : 1718047673526,
+    "duration" : 3842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c63773dc6bf753b7",
+  "name" : "goToMainPageByLogoFromProfile",
+  "time" : {
+    "start" : 1718047818348,
+    "stop" : 1718047826615,
+    "duration" : 8267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f65973b917ac0d7",
+  "name" : "testSauceTabOpens",
+  "time" : {
+    "start" : 1718047720393,
+    "stop" : 1718047804159,
+    "duration" : 83766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62f64d98f314ed33",
+  "name" : "testLoginFromRegistrationPage",
+  "time" : {
+    "start" : 1718047643845,
+    "stop" : 1718047669635,
+    "duration" : 25790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7fca73139889142",
+  "name" : "testFillingTabOpens",
+  "time" : {
+    "start" : 1718047708348,
+    "stop" : 1718047714106,
+    "duration" : 5758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "290057622debae4c",
+  "name" : "testLogout",
+  "time" : {
+    "start" : 1718047701290,
+    "stop" : 1718047708344,
+    "duration" : 7054
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33e71cf3b5e8052c",
+  "name" : "testLoginAfterPasswordRecovery",
+  "time" : {
+    "start" : 1718047673528,
+    "stop" : 1718047701285,
+    "duration" : 27757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f39c983f175e009",
+  "name" : "goToProfileFromMainPage",
+  "time" : {
+    "start" : 1718047826617,
+    "stop" : 1718047833768,
+    "duration" : 7151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e11832ed261bbd4",
+  "name" : "goToMainPageByButtonFromProfile",
+  "time" : {
+    "start" : 1718047804161,
+    "stop" : 1718047818346,
+    "duration" : 14185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
