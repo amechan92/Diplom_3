@@ -85,8 +85,16 @@
                 <configuration>
                     <reportVersion>2.15.0</reportVersion>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>
