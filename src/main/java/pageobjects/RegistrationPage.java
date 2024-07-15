@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegistrationPage {
     private WebDriver driver;
-    private By passwordError = By.xpath("//*[contains(@class,'input__error')]");
+    private By passwordError = By.xpath("//*[text()='Некорректный пароль']");
     private String registrationUrl = "https://stellarburgers.nomoreparties.site/register";
 
     public RegistrationPage(WebDriver driver) {

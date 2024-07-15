@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pageobjects.RegistrationPage;
+import pageobjects.LoginPage;
 import utils.WebDriverFactory;
 
 import java.util.UUID;
@@ -14,6 +15,7 @@ public class RegistrationTests {
 
     private WebDriver driver;
     private RegistrationPage registrationPage;
+    private LoginPage loginPage;
 
     @Before
     public void setUp() {
@@ -33,6 +35,14 @@ public class RegistrationTests {
         String email = emailPrefix + UUID.randomUUID().toString().substring(0, 8) + "@" + emailDomain;
         registrationPage.register(username, email, "password123");
         assertTrue("The user should be registered successfully", registrationPage.isSuccessfulRegistration());
+
+        loginPage = new LoginPage(driver);
+        loginPage.open();
+        loginPage.login(email, "password123");
+        assertTrue("The user should be login successfully", loginPage.isLoginSuccessful());
+
+
+
     }
 
     @Test

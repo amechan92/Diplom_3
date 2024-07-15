@@ -64,7 +64,14 @@ public class LoginTests {
         loginPage.open();
         loginPage.login("himitsu1892@gmail.com", "123456");
         mainPage.goToProfile();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+
+        try {
+            Thread.sleep(2000); // Задержка в 2 секунды
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(profilePage.getLogoutButton())).click();
         wait.until(ExpectedConditions.urlToBe("https://stellarburgers.nomoreparties.site/login"));
         String currentUrl = driver.getCurrentUrl();

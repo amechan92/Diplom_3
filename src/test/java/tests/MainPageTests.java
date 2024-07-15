@@ -25,9 +25,9 @@ public class MainPageTests {
 
     @Test
     public void testBunTabOpens() {
-       /* mainPage.clickSauceTab();
+       mainPage.clickSauceTab();
         mainPage.clickBunTab();
-        WebDriverWait wait = new WebDriverWait(driver, 10);*/
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         //Раскомментировать при необходимости, сейчас по умолчанию открыта вкладка "Булки"
         assertTrue("Bun tab is not active", mainPage.isBunTabActive());
     }
